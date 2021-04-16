@@ -1,0 +1,108 @@
+
+body {
+
+  background-color:#ffffff
+    
+
+}
+.header{
+background-color:#424244;
+padding: 2px 20px;;
+margin-top:-10px;
+margin-left:-10px;
+margin-right:-10px;
+  color: #7fcec9;
+  font-family: monospace;
+  text-align: center;
+  font-size: 10pt;
+}
+ .simple{
+ color: #ffffff;
+  font-family: Arial;
+  font-size: 20pt;
+  
+  text-align: left;
+  margin-top: -45px;
+
+ }
+.sizeq{
+font-family:  ink free;
+  text-align: center;
+  font-size: 15pt;
+  font-weight:bold;
+  margin-top: 45px;
+}
+
+.laptopname{
+	
+	font-family:  arial;
+  text-align: center;
+  font-size: 20pt;
+  font-weight:bold;
+  margin-top: 45px;
+	
+}
+
+img{
+	width:300px;
+	margin-top:-250px;
+}
+
+.spec{
+	
+		font-family:  arial;
+   
+   text-align:left;
+ margin-left:400px;
+  font-size: 10pt;
+  font-weight:bold;
+  margin-top:80px;
+	
+	
+}
+
+.price{
+	
+		font-family:  arial;
+   text-align:left;
+ margin-left:480px;
+  font-size: 12pt;
+  font-weight:bold;
+  margin-top:-30px;
+	color:#00ff00;
+}
+
+.cus{
+	
+	margin-left:1000px;
+	margin-top:-180px;
+	
+}
+.navbar {
+  background-color: #424244;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  margin-left:-10px;
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.istor{
+	margin-left:60px;
+	margin-top:-28px;
+}
+
+
+.isram{
+	margin-left:50px;
+	margin-top:-30px;
+}
