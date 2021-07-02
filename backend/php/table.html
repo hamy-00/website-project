@@ -1,0 +1,64 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<title>Login</title>
+<link rel="icon" href="simple.gif" type="image/gif" >
+<link rel="stylesheet" href="../all.css">
+
+ <div class="header" >
+  <h2>maintain the database</h2>
+</div> 
+<div class="simple">
+>php<br><br><br>
+</div>
+
+<center>
+ <form action="insertcon.php" method="POST"><br/><br/>
+ ID: <br><br> <input type="text" name="u_ID" id="aaa"><br><br><br><br><br>
+ Laptop name: <br><br><input type="text" name="u_Name" id="name"><br/><br/><br><br><br>
+ 
+ Price: <br><br><input type="text" name="u_Age"><br/><br/><br/><br/><br><br>
+ 
+ <input style="background-color: #4CAF50;font-size: 20px;"type="submit" name='proc' value="Add" onclick="alert('ID can't be blank');">
+ <input style="background-color: #4CAF50;font-size: 20px;" type="submit" name='proc' value="Update" onclick="return check()">
+ <input style="background-color: #4CAF50;font-size: 20px;" type="submit" name='proc' value="delete" onclick="return check()">
+ 
+  <input style="background-color: #4CAF50;font-size: 20px;" type="submit" name='proc' value="Display_all" onclick="return check()">
+</form>
+</center>
+<script>
+alert("ID can't be blank");
+ function check(){
+ alert("ID can't be blank");
+ 
+   var name=document.getElementById("aaa").value;
+	
+	var email=document.getElementById("age").value;
+	
+	if (name == null || name == "")
+	{  alert("ID can't be blank");
+document.getElementById("aaa").focus();
+return false;  }
+
+
+
+
+
+
+else if !(email == null || email == "")
+{
+return true;
+}
+else
+{
+alert("name cant be blank");
+document.getElementById("name").focus();
+return false;
+}
+
+}
+</script>
+ 
+
+ </body>
+ </html>
